@@ -18,28 +18,6 @@ html{
 }
 
 
-
-.rodape{
-    display:flex;
-    justify-content:space-around ;
-    flex-wrap: wrap;
-    background-color: #fff;
-    max-width: 2000px;
-    margin: 0 auto;
- 
-
-}
-
-.rodape img{
-    width: 30%;
-    max-width: 30%;
-    display:flex;
-}
-
-.rodape h2{
-    font-size: 4em;
-    font-family:cursive;
-}
 /*brakpoint do cabecalho*/
 @media(max-width: 629px){
     .cabecalho{

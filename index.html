@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./CSS/estilo.css">
-    <link rel="stylesheet" href="./js/script.js">
+    
 </head>
 <body>
 
@@ -21,6 +21,10 @@
 
         <h2 class="tit-sec">Seção fot</h2>
         
+        <div>
+            <button name="botão" onclick="alert(this.name)">CLICK</button>
+        </div>
+
         <section class="conteudo">
             <div>
                 <img src="./img/lobo1.jpg" alt="lobo">
@@ -78,5 +82,34 @@
             </div>
 
         </footer>
+
+        <script>
+            
+            // comentário de linha
+            /*
+            * Para comentário de Bloco
+            */
+
+            // Declaração de variáveis com a palavra reservada var
+
+            var nr1 = 10;
+            var nr2 = 5;
+
+            //Saída de dados com consle.log()
+            console.log(nr1 );
+            console.log(nr2);
+
+            const botoes = document.querySelectorAll("button")
+            botoes.forEach( (botao)=>{
+
+                if(botao.textContent == "CLICK"){
+                    botao.addEventListener("click", ()=>{
+                        alert("oi!!");
+                    })
+                }
+
+            });
+
+        </script>
 </body>
 </html>

@@ -106,3 +106,9 @@
 // // frutas.map((fruta, key) => {
 // //   console.log(`fruta nr ${key + 1} ${frutas}`);
 // });
+
+const iputUser = document.querySelectorAll("#idUser");
+
+inputUser.addEventListner("focus", () => {
+  inputUser.setAttribute("style", "outline-color: #ff0000;");
+});
